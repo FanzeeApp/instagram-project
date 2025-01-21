@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { Provider } from "react-redux";
 import { store } from "./store/index.ts";
 import { createRoot } from "react-dom/client";
+import "../src/index.css"
 
 const queryClient = new QueryClient();
 
