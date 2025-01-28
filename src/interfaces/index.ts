@@ -10,4 +10,12 @@ export interface RegisterBody {
     login: string;
     password: string;
   }
+
+  export interface Post {
+    id: number;
+    mediaUrl: string;
+    description: string;
+    userAvatar?: string;
+    username?: string;
+  }
   
