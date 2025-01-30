@@ -18,4 +18,12 @@ export interface RegisterBody {
     userAvatar?: string;
     username?: string;
   }
+
+  export interface UseFormRegister{
+    username: string;
+    email: string;
+    password: string;
+    birthDate: string;
+    gender: NonNullable<"male" | "female" | undefined>;
+}
   
